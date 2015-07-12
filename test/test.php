@@ -18,6 +18,10 @@ $object = json_decode(json_encode($testArr), FALSE);
 
 $debug->debug_to_console($object);
 
+$debug->print_info();
+echo "<pre>";
+print_r($GLOBALS);
+
 echo "<h1>Test</h1>";
 
 ?>
